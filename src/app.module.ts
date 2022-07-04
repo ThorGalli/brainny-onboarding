@@ -10,6 +10,8 @@ import { DisciplinesModule } from './modules/disciplines/disciplines.module';
 import { ContentsModule } from './modules/contents/contents.module';
 import { LessonsModule } from './modules/lessons/lessons.module';
 
+//done
+
 @Module({
   imports: [
     GraphQLModule.forRoot<ApolloDriverConfig>({
