@@ -15,17 +15,18 @@ The database is a dockerized and ran using postgres.
 
 ```bash
 $ npm install
+or
+$ yarn install
 ```
 
 ## Running the app
 
 ```bash
-# development
-$ npm run start
+# start the database
+$ docker-compose up
 
 # watch mode
 $ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
+or
+# watch mode
+$ yarn start:dev
