@@ -15,7 +15,7 @@ The database is a dockerized and ran using postgres.
 
 ```bash
 $ npm install
-or
+# or
 $ yarn install
 ```
 
@@ -27,6 +27,6 @@ $ docker-compose up
 
 # watch mode
 $ npm run start:dev
-or
+# or
 # watch mode
 $ yarn start:dev
